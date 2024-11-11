@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(56, 54, 54);
+    padding: 2rem;
+    display: flex;
+}
+
+.items{
+    background-color: rgb(8, 87, 165);
+    border: 1px solid white;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    /* display: inline-block; */
+}
+
+#rotatex:hover{
+    transform: rotateX(45deg);
+    transition-duration: 200ms;
+}
+
+#rotatey:hover{
+    transform: rotateY(45deg);
+    transition-duration: 200ms;
+}
